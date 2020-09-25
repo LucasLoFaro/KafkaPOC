@@ -23,5 +23,3 @@ diffusion.connect({
     console.error(`Cannot set ${topicPath} on ${host}: ${error}`);
     process.exit(1);
 })
-
-//node ./producer.js "kafkacloudservice.us.diffusion.cloud" "user" "user" "homebanking/rodri/cajaDeAhorroEnPesos" "98000"
